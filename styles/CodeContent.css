@@ -1,0 +1,112 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f0f8ff;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #007acc;
+}
+
+.tagline {
+    color: #555;
+    font-size: 1.1rem;
+}
+
+.filter {
+    margin: 20px 0;
+    font-size: 1rem;
+}
+
+select {
+    padding: 8px 12px;
+    font-size: 1rem;
+    margin-left: 10px;
+    border: 2px solid #007acc;
+    border-radius: 6px;
+}
+
+.code-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.code-card {
+    background: #f8faff;
+    border-left: 6px solid #007acc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.code-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.code-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.code-category {
+    background: #007acc;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+.code-snippet {
+    background: #1e1e1e;
+    color: #c7d4d4;
+    font-family: monospace;
+    font-size: 0.95rem;
+    padding: 15px;
+    margin-top: 10px;
+    white-space: pre-wrap;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+.download-link {
+    display: inline-block;
+    margin-top: 12px;
+    background-color: #007acc;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.download-link:hover {
+    background-color: #005f99;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #888;
+    font-size: 0.9rem;
+}

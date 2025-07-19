@@ -1,0 +1,111 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f0f8ff;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+h1 {
+    color: #007acc;
+    font-size: 2.5rem;
+}
+
+.intro {
+    font-size: 1.1rem;
+    color: #444;
+}
+
+.info-section,
+.links-section,
+.resources {
+    margin-bottom: 35px;
+}
+
+h2 {
+    color: #007acc;
+    margin-bottom: 12px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li::before {
+    content: "✅";
+    margin-right: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007acc;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #005e99;
+}
+
+.secondary {
+    background-color: #28a745;
+}
+
+.secondary:hover {
+    background-color: #1f7f33;
+}
+
+.material-item {
+    background: #f1faff;
+    padding: 15px;
+    border-left: 4px solid #007acc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.material-title {
+    font-weight: 600;
+    color: #333;
+}
+
+.material-actions a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+    background: #007acc;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+}
+
+.material-actions a:hover {
+    background: #005e99;
+}
+
+footer {
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+}

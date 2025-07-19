@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>LearnOnix Doubt Solver</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../styles/DoubtSolver.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>📘 LearnOnix Doubt Solver</h1>
+      <p class="tagline">Ask questions. Get clarity. Learn better. ✨</p>
+    </header>
+
+    <section class="form-section">
+      <h2>📝 Submit Your Doubt</h2>
+      <form id="doubtForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <select id="category" required>
+          <option value="" disabled selected>Select Category</option>
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="React">React</option>
+          <option value="DSA">DSA</option>
+          <option value="Other">Other</option>
+        </select>
+        <textarea id="question" rows="5" placeholder="Type your doubt here..." required></textarea>
+        <button type="submit">➕ Add Doubt</button>
+      </form>
+    </section>
+
+    <section class="filter-section">
+      <h2>🔍 Filter Doubts</h2>
+      <select id="filterCategory">
+        <option value="All">Show All</option>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="React">React</option>
+        <option value="DSA">DSA</option>
+        <option value="Other">Other</option>
+      </select>
+    </section>
+
+    <section class="doubts-list">
+      <h2>📚 Doubt Board</h2>
+      <div id="doubtsContainer"></div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 LearnOnix | Doubts make you stronger. 🔥</p>
+    </footer>
+  </div>
+
+  <script src="../scripts/DoubtSolver.js"></script>
+</body>
+
+</html>
